@@ -9,12 +9,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.linear5);
+        setContentView(R.layout.constraint1);
 
         int ss= 100;
         String tt = "호호";
         char ch = 'a';
         short s = 200;
-        
+
     }
 }
