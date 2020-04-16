@@ -57,6 +57,13 @@ public class Main2Activity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+                if(flag==false){
+                    et.setText("");
+                    num1 = 0;
+                    num2 = 0;
+                    calType = 0;
+                    flag=true;
+                }
                 if(cal.equals("x")) {
                     calType = 1;
                     num2 = num1;
@@ -94,13 +101,7 @@ public class Main2Activity extends AppCompatActivity {
                 }else if(cal.equals("9")){
                     num1 = num1*10+9;
                 }
-                if(flag==false){
-                    et.setText("");
-                    num1 = 0;
-                    num2 = 0;
-                    calType = 0;
-                    flag=true;
-                }
+
                 et.setText(et.getText().append(cal));
 
             }
