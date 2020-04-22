@@ -14,7 +14,7 @@ public class HowToPlay extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.howtoplay);
 
-        Button btnBack = findViewById(R.id.btnBack);
+        Button btnBack =findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
