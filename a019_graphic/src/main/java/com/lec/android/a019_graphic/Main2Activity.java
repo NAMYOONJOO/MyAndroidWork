@@ -27,6 +27,9 @@ class MyView2 extends View {
         super(context);
     }
 
+
+    
+
     @Override
     protected void onDraw(Canvas canvas) {
         Paint paint = new Paint();
