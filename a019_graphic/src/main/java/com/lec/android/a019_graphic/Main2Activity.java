@@ -28,7 +28,7 @@ class MyView2 extends View {
     }
 
 
-    
+
 
     @Override
     protected void onDraw(Canvas canvas) {
